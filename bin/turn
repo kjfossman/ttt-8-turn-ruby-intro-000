@@ -13,6 +13,6 @@ if
   valid_move?(board, index) == false
   turn(board)
 else
-  
+
 display_board(board)
 end
