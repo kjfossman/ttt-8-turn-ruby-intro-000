@@ -47,4 +47,7 @@ while valid_move?(board, index) == false
   input_to_index(input)
   index = input - 1
 end
+move(board, index, value = "X")
+
+display_board(board)
 end
