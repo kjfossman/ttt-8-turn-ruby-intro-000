@@ -7,9 +7,7 @@ display_board(board)
 
 turn(board)
 puts "whats up"
-input = gets.strip.to_i
-input_to_index(input)
-index = input - 1
+
 
 move(board, index, value = "X")
 
