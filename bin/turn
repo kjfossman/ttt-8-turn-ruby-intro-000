@@ -9,6 +9,4 @@ turn(board)
 puts "whats up"
 
 
-move(board, index, value = "X")
 
-display_board(board)
