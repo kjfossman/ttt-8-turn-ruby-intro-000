@@ -10,13 +10,5 @@ input = gets.strip.to_i
 input_to_index(input)
 index = input - 1
 move(board, index, value = "X")
-if
-  valid_move?(board, index) == false
-  turn(board)
-  input = gets.strip.to_i
-  input_to_index(input)
-  index = input - 1
-  move(board, index, value = "X")
-else
-display_board(board)
 end
+display_board(board)
