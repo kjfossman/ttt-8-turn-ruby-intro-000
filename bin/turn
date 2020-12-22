@@ -9,5 +9,8 @@ input = gets.strip.to_i
 input_to_index(input)
 index = input - 1
 move(board, index, value = "X")
-valid_move?(board, index)
+if 
+  valid_move?(board, index) == false
+  turn(board)
+else
 display_board(board)
