@@ -7,5 +7,6 @@ display_board(board)
 turn(board)
 input = gets.strip.to_i
 input_to_index(input)
+index = input - 1
 move(board, index, value = "X")
 display_board(board)
