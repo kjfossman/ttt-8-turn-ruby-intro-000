@@ -44,8 +44,8 @@ index = input_to_index(input)
 while valid_move?(board, index) == false
   puts "Please enter 1-9:"
   input = gets.strip.to_i
-  input_to_index(input)
-  index = input - 1
+  index = input_to_index(input)
+
 
 end
 move(board, index, value = "X")
