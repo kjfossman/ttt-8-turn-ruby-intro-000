@@ -7,7 +7,7 @@ display_board(board)
 
 turn(board)
 
-
+index = input - 1
 move(board, index, value = "X")
 
 display_board(board)
