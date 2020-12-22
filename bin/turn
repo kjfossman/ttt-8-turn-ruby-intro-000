@@ -10,9 +10,8 @@ input_to_index(input)
 index = input - 1
 move(board, index, value = "X")
 if
-  valid_move?(board, index) == false
+  valid_move?(board, index) == true
   turn(board)
 else
-
 display_board(board)
 end
