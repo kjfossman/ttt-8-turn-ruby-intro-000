@@ -6,7 +6,7 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
 turn(board)
-
+index = input - 1
 
 move(board, index, value = "X")
 
