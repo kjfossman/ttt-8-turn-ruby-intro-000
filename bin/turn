@@ -4,11 +4,12 @@ require_relative '../lib/turn'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
-until valid_move?(board, index) == true
+
 turn(board)
 input = gets.strip.to_i
 input_to_index(input)
 index = input - 1
+until valid_move?(board, index) == true
 move(board, index, value = "X")
 end
 display_board(board)
